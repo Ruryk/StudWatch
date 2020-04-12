@@ -67,32 +67,21 @@ h3,.h3{
   }
 }
 
-.section-margin{
-  margin: 70px 0;
+%section-margin{
+  margin: 40px 0;
 
   @media(min-width: 1000px){
     margin: 120px 0;
   }
-
-  &--large{
-    margin: 65px 0;
+  &__large{
+    margin: 45px 0;
 
     @media(min-width: 1200px){
       margin: 130px 0;
     }
   }
-}
-
-
-.section-padding--small{
-  padding: 70px 0;
-
-  @media(min-width: 1000px){
-    padding: 120px 0;
-  }
-
-  &er{
-    padding: 70px 0;
+  &__small{
+    padding: 30px 0;
 
     @media(min-width: 1000px){
       padding: 100px 0;
@@ -110,63 +99,3 @@ h3,.h3{
 .bg-albaster{
   background-color: #f7f7f7;
 }
-
-// .pb-85px{
-//   padding-bottom: 45px;
-
-//   @media(min-width: 1000px){
-//     padding-bottom: 85px;
-//   }
-// }
-
-// .section-margin{
-//   margin: 60px 0;
-
-//   @media(min-width: 1000px){
-//     margin: 100px 0;
-//   }
-
-//   @media(min-width: 1200px){
-//     margin: 135px 0;
-//   }
-
-//   &--medium{
-//     margin: 40px 0;
-
-//     @media(min-width: 800px){
-//       margin: 80px 0;
-//     }
-
-//     @media(min-width: 1200px){
-//       margin: 120px 0;
-//     }
-//   }
-// }
-
-// .section-padding{
-//   padding: 60px 0;
-
-//   @media(min-width: 1000px){
-//     padding: 100px 0;
-//   }
-
-//   @media(min-width: 1200px){
-//     padding: 135px 0;
-//   }
-
-//   &--small{
-//     padding: 60px 0;
-
-//     @media(min-width: 1000px){
-//       padding: 100px 0;
-//     }
-//   }
-// }
-
-// .bg-magnolia{
-//   background: $magnolia;
-// }
-
-/* global style end
-	============================================================================================ */
-
