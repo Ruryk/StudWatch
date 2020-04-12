@@ -104,11 +104,11 @@ h3, .h3 {
     margin: 130px 0;
   }
 }
-.cta, .subject .testimonial-section {
+.cta, .feedback {
   padding: 30px 0;
 }
 @media (min-width: 1000px) {
-  .cta, .subject .testimonial-section {
+  .cta, .feedback {
     padding: 100px 0;
   }
 }
@@ -123,6 +123,7 @@ h3, .h3 {
 
 .bg-albaster {
   background-color: #f7f7f7;
+  padding: 3%;
 }
 
 /* header style start
@@ -547,31 +548,6 @@ h3, .h3 {
 
   /* End Main Menu Area css
   ============================================================================================ */
-  /* Blog page Area css
-  ============================================================================================ */
-  .categories_post img {
-    width: 100%;
-  }
-
-  .categories_post {
-    max-width: 360px;
-    margin: 0 auto;
-  }
-
-  .blog_categorie_area .col-lg-4 {
-    margin-top: 30px;
-  }
-
-  .blog_area {
-    padding-bottom: 80px;
-  }
-
-  .single-post-area .blog_right_sidebar {
-    margin-top: 30px;
-  }
-
-  /* End Blog page Area css
-  ============================================================================================ */
   /* Contact Page Area css
   ============================================================================================ */
   .contact_info {
@@ -643,20 +619,6 @@ h3, .h3 {
     margin-top: 0px;
   }
 
-  /* Blog Page Area css
-  ============================================================================================ */
-  .blog_banner .banner_inner .blog_b_text h2 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .blog_info.text-right {
-    text-align: left !important;
-    margin-bottom: 10px;
-  }
-
-  /* End Blog Page Area css
-  ============================================================================================ */
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 30px;
   }
@@ -814,14 +776,6 @@ h3, .h3 {
     font-size: 32px;
   }
 
-  /* Blog Page Area css
-  ============================================================================================ */
-  .comments-area .thumb {
-    margin-right: 10px;
-  }
-
-  /* End Blog Page Area css
-  ============================================================================================ */
   .testi_item .media .d-flex {
     padding-right: 0px;
   }
@@ -999,12 +953,6 @@ h3, .h3 {
 ============================================================================================ */
 /* Subject section start
 ============================================================================================ */
-.subject {
-  /* Subject section end
-  ============================================================================================ */
-  /* Testimonial section start
-  ============================================================================================ */
-}
 .subject .card-subject {
   border: 0;
   border-radius: 0;
@@ -1053,42 +1001,44 @@ h3, .h3 {
 .subject .card-subject:hover .card-subject__body {
   background: #fff;
 }
-.subject .testimonial-section {
-  padding: 3%;
-}
-.subject .testimonial-section .testimonial {
+
+/* Subject section end
+============================================================================================ */
+/* Testimonial section start
+============================================================================================ */
+.feedback .testimonial {
   max-width: 970px;
   margin-right: auto;
   margin-left: auto;
 }
-.subject .testimonial-section .testimonial__item {
+.feedback .testimonial__item {
   background: #fff;
   border-radius: 5px;
   padding: 30px 15px;
 }
 @media (min-width: 600px) {
-  .subject .testimonial-section .testimonial__item {
+  .feedback .testimonial__item {
     padding: 30px 50px;
   }
 }
-.subject .testimonial-section .testimonial__img {
+.feedback .testimonial__img {
   max-width: 132px;
 }
-.subject .testimonial-section .testimonial__content h3 {
+.feedback .testimonial__content h3 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 0;
 }
-.subject .testimonial-section .testimonial__content p {
+.feedback .testimonial__content p {
   font-size: 14px;
   margin-bottom: 10px;
 }
-.subject .testimonial-section .testimonial__i {
+.feedback .testimonial__i {
   font-size: 15px !important;
   font-style: italic;
   margin-bottom: 0 !important;
 }
-.subject .testimonial-section .testimonial__icon {
+.feedback .testimonial__icon {
   font-size: 173px;
   color: rgba(119, 119, 119, 0.1);
   position: absolute;
@@ -1096,22 +1046,22 @@ h3, .h3 {
   transform: translateY(-50%);
   right: 40px;
 }
-.subject .testimonial-section .testimonial .owl-dots {
+.feedback .testimonial .owl-dots {
   margin-top: 30px !important;
 }
 @media (min-width: 600px) {
-  .subject .testimonial-section .testimonial .owl-dots {
+  .feedback .testimonial .owl-dots {
     margin-top: 60px !important;
   }
 }
-.subject .testimonial-section .testimonial .owl-dots .owl-dot span {
+.feedback .testimonial .owl-dots .owl-dot span {
   width: 20px;
   height: 4px;
   background: #d3d2d5;
   border-radius: 2px;
   margin: 5px 10px;
 }
-.subject .testimonial-section .testimonial .owl-dots .owl-dot.active span {
+.feedback .testimonial .owl-dots .owl-dot.active span {
   background: #de6320;
 }
 
@@ -1168,14 +1118,12 @@ h3, .h3 {
 ============================================================================================ */
 .cta {
   margin-bottom: 5%;
-}
-.cta-wrapper {
   background: url(../img/home/cta-bg.png) left center no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
 }
-.cta-wrapper::after {
+.cta::after {
   content: "";
   display: block;
   position: absolute;

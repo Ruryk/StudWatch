@@ -117,16 +117,16 @@
       }
     }
   }
-  
+}
   /* Subject section end
   ============================================================================================ */
   
   
   /* Testimonial section start
   ============================================================================================ */
-  .testimonial-section{
+  .feedback{
     @extend %section-margin__small;
-    padding: 3%;
+    
     .testimonial{
       max-width: 970px;
       margin-right: auto;
@@ -201,7 +201,7 @@
     }
   }
   
-  }
+  
   
 /* Testimonial section end
 ============================================================================================ */
@@ -276,24 +276,23 @@
 .cta{
  margin-bottom:5% ;
 @extend %section-margin__small;
-  &-wrapper{
-    background: url(../img/home/cta-bg.png) left center no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 1;
+  background: url(../img/home/cta-bg.png) left center no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
 
-    &::after{
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(1, 0, 9, 0.6);
-      z-index: -1;
-    }
+  &::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 0, 9, 0.6);
+    z-index: -1;
   }
+
 
   &__content{
     max-width: 640px;
